@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//https://leetcode.cn/problems/kth-largest-element-in-an-array/
+// https://leetcode.cn/problems/kth-largest-element-in-an-array/
 func main() {
 	fmt.Println(findKthLargest([]int{3, 2, 1, 5, 6, 4}, 2))
 	fmt.Println(findKthLargest([]int{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4))
