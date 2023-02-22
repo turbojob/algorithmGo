@@ -5,9 +5,15 @@ import (
 )
 
 func main() {
-	s1 := []int{0, 1, 2, 3, 4, 5}
-	fmt.Println(s1)
 
-	fmt.Println(s1[0:len(s1)])
-	fmt.Println(s1[0 : len(s1)-1])
+	test := make(map[int64]bool)
+	test[0] = false
+	test[1] = true
+	fmt.Println(test[2])
+
+	fmt.Println(map[int]bool{
+		100: true,
+		200: true,
+	}[2])
+
 }
